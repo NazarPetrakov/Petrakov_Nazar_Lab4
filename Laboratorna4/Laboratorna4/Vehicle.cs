@@ -40,6 +40,11 @@ namespace Laboratorna4
             return 0;
          }
 
+        public double baggadgePrice()
+        {
+            return Baggage * 2;
+        }
+
     }
 
     class Garage
